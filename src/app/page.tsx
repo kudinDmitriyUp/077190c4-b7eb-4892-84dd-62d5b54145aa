@@ -50,11 +50,11 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           mediaItems={[
             { imageSrc: "http://img.b2bpic.net/free-photo/assortment-bread-products_123827-36235.jpg", imageAlt: "Artisan bakery showcase with fresh baked goods" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/croissant-coffee-food-photography_53876-104492.jpg", imageAlt: "Golden butter croissants" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/baker-holds-homemade-craft-bread-his-hands_166373-749.jpg", imageAlt: "Fresh sourdough loaf" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/piece-chocolate-cake_1220-166.jpg", imageAlt: "Rich dark chocolate cake" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/traditional-cinnamon-buns-white-table-homemade-sweet-buns_127032-2691.jpg", imageAlt: "Warm cinnamon rolls" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/olive-coconut-oils-products-top-view_23-2148337437.jpg", imageAlt: "Premium baking ingredients" }
+            { imageSrc: "http://img.b2bpic.net/free-photo/croissant-coffee-food-photography_53876-104492.jpg?_wi=1", imageAlt: "Golden butter croissants" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/baker-holds-homemade-craft-bread-his-hands_166373-749.jpg?_wi=1", imageAlt: "Fresh sourdough loaf" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/piece-chocolate-cake_1220-166.jpg?_wi=1", imageAlt: "Rich dark chocolate cake" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/traditional-cinnamon-buns-white-table-homemade-sweet-buns_127032-2691.jpg?_wi=1", imageAlt: "Warm cinnamon rolls" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/olive-coconut-oils-products-top-view_23-2148337437.jpg?_wi=1", imageAlt: "Premium baking ingredients" }
           ]}
         />
       </div>
@@ -78,19 +78,19 @@ export default function LandingPage() {
           products={[
             {
               id: "1",              brand: "Artisan Bakery",              name: "Butter Croissants",              price: "$4.50",              rating: 5,
-              reviewCount: "342",              imageSrc: "http://img.b2bpic.net/free-photo/croissant-coffee-food-photography_53876-104492.jpg",              imageAlt: "Golden butter croissants"
+              reviewCount: "342",              imageSrc: "http://img.b2bpic.net/free-photo/croissant-coffee-food-photography_53876-104492.jpg?_wi=2",              imageAlt: "Golden butter croissants"
             },
             {
               id: "2",              brand: "Artisan Bakery",              name: "Sourdough Loaf",              price: "$6.99",              rating: 5,
-              reviewCount: "289",              imageSrc: "http://img.b2bpic.net/free-photo/baker-holds-homemade-craft-bread-his-hands_166373-749.jpg",              imageAlt: "Fresh sourdough loaf"
+              reviewCount: "289",              imageSrc: "http://img.b2bpic.net/free-photo/baker-holds-homemade-craft-bread-his-hands_166373-749.jpg?_wi=2",              imageAlt: "Fresh sourdough loaf"
             },
             {
               id: "3",              brand: "Artisan Bakery",              name: "Dark Chocolate Cake",              price: "$24.99",              rating: 5,
-              reviewCount: "156",              imageSrc: "http://img.b2bpic.net/free-photo/piece-chocolate-cake_1220-166.jpg",              imageAlt: "Rich dark chocolate cake"
+              reviewCount: "156",              imageSrc: "http://img.b2bpic.net/free-photo/piece-chocolate-cake_1220-166.jpg?_wi=2",              imageAlt: "Rich dark chocolate cake"
             },
             {
               id: "4",              brand: "Artisan Bakery",              name: "Cinnamon Rolls",              price: "$3.99",              rating: 5,
-              reviewCount: "428",              imageSrc: "http://img.b2bpic.net/free-photo/traditional-cinnamon-buns-white-table-homemade-sweet-buns_127032-2691.jpg",              imageAlt: "Warm cinnamon rolls"
+              reviewCount: "428",              imageSrc: "http://img.b2bpic.net/free-photo/traditional-cinnamon-buns-white-table-homemade-sweet-buns_127032-2691.jpg?_wi=2",              imageAlt: "Warm cinnamon rolls"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -108,7 +108,7 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Premium Ingredients",              description: "We source the finest organic flour, butter, and natural ingredients from trusted local and international suppliers to ensure every bite is exceptional.",              imageSrc: "http://img.b2bpic.net/free-photo/olive-coconut-oils-products-top-view_23-2148337437.jpg",              imageAlt: "Premium baking ingredients"
+              title: "Premium Ingredients",              description: "We source the finest organic flour, butter, and natural ingredients from trusted local and international suppliers to ensure every bite is exceptional.",              imageSrc: "http://img.b2bpic.net/free-photo/olive-coconut-oils-products-top-view_23-2148337437.jpg?_wi=2",              imageAlt: "Premium baking ingredients"
             },
             {
               id: 2,
