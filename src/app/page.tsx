@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import HeroLogoBillboardSplit from '@/components/sections/hero/HeroLogoBillboardSplit';
+import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import TextAbout from '@/components/sections/about/TextAbout';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
@@ -39,20 +39,23 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroLogoBillboardSplit
-          logoText="ARTISAN"
+        <HeroBillboardCarousel
+          title="ARTISAN"
           description="Handcrafted breads, pastries, and desserts baked fresh daily using time-honored techniques and premium natural ingredients. Experience the warmth of true artisanal baking."
           background={{ variant: "plain" }}
           buttons={[
-            { text: "Shop Now", href: "#products" },
-            { text: "Learn More", href: "#about" }
+            { text: "Shop Now", href: "products" },
+            { text: "Learn More", href: "about" }
           ]}
           buttonAnimation="slide-up"
-          layoutOrder="default"
-          imageSrc="http://img.b2bpic.net/free-photo/assortment-bread-products_123827-36235.jpg"
-          imageAlt="Artisan bakery showcase with fresh baked goods"
-          frameStyle="card"
-          mediaAnimation="blur-reveal"
+          mediaItems={[
+            { imageSrc: "http://img.b2bpic.net/free-photo/assortment-bread-products_123827-36235.jpg", imageAlt: "Artisan bakery showcase with fresh baked goods" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/croissant-coffee-food-photography_53876-104492.jpg", imageAlt: "Golden butter croissants" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/baker-holds-homemade-craft-bread-his-hands_166373-749.jpg", imageAlt: "Fresh sourdough loaf" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/piece-chocolate-cake_1220-166.jpg", imageAlt: "Rich dark chocolate cake" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/traditional-cinnamon-buns-white-table-homemade-sweet-buns_127032-2691.jpg", imageAlt: "Warm cinnamon rolls" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/olive-coconut-oils-products-top-view_23-2148337437.jpg", imageAlt: "Premium baking ingredients" }
+          ]}
         />
       </div>
 
@@ -62,7 +65,7 @@ export default function LandingPage() {
           title="Since 1995, we've been dedicated to bringing traditional baking methods to your table"
           useInvertedBackground={false}
           buttons={[
-            { text: "Visit Us", href: "#contact" }
+            { text: "Visit Us", href: "contact" }
           ]}
         />
       </div>
@@ -162,7 +165,7 @@ export default function LandingPage() {
           columns={[
             {
               items: [
-                { label: "Home", href: "#home" },
+                { label: "Home", href: "/" },
                 { label: "Products", href: "#products" },
                 { label: "About", href: "#about" }
               ]
